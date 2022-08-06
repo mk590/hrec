@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/hrec/static/css/main.da09f434.css",
+    "main.js": "/hrec/static/js/main.8ca3987d.js",
+    "static/media/hecrec.jpg": "/hrec/static/media/hecrec.0881cc8736051fbf9b48.jpg",
+    "index.html": "/hrec/index.html",
+    "main.da09f434.css.map": "/hrec/static/css/main.da09f434.css.map",
+    "main.8ca3987d.js.map": "/hrec/static/js/main.8ca3987d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.da09f434.css",
+    "static/js/main.8ca3987d.js"
+  ]
+}
