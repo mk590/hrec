@@ -26,20 +26,31 @@ const Projects = () => {
       </div> */}
 
       <div id="carouselExampleControls" className=" carousel slide relative ." data-bs-ride="carousel" style={{
-          backgroundImage: 'url('+bg3+')',
-          backgroundSize: "cover",
-          // height: "100vh",
-          color: "#f5f5f5"
-        }} >
+        backgroundImage: 'url(' + bg3 + ')',
+        backgroundSize: "cover",
+        // height: "100vh",
+        color: "#f5f5f5"
+      }} >
         <div class="carousel-inner relative w-full overflow-hidden">
-          <div class="carousel-item active relative float-left w-full">
+          {/* <div class="carousel-item active relative float-left w-full">
             <img
               src="https://mdbcdn.b-cdn.net/img/new/slides/041.webp"
               class="block w-full"
               alt="Wild Landscape"
             />
+          </div> */}
+
+
+          <div class="carousel-item active relative float-left w-full">
+
+            <div class="flex items-center justify-center pt-3 h-full">
+              <div className="p-12 flex flex-col items-center border-0  rounded-[1rem]   h-[20rem] w-[20rem] my-[5rem]">
+                <h5 class="font-serif text-center my-3 text-green-600 text-6xl">Projects</h5>
+              </div>
+
+            </div>
           </div>
-         
+
           {data.map((elemant, index) => {
             console.log(elemant)
             return (
@@ -73,3 +84,4 @@ const Projects = () => {
 }
 
 export default Projects
+
